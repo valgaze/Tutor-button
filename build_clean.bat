@@ -58,12 +58,9 @@ goto loop
 :stop 
 
 
-start chrome.exe http://tinyurl.com/studyhoot
+start chrome.exe https://www.appointment-plus.com/login.php
 start chrome.exe http://www.gmail.com
 "C:\Program Files\Notepad++\notepad++" C:\Users\Vic\Desktop\STUDY_HUT\Notes.txt %filename%
-
-
-REM cscript "C:\Users\Vic\Desktop\STUDY_HUT\tiler.vbs"
 
 :end
 echo (Made it to the end)
