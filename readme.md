@@ -7,7 +7,7 @@ I had a problem and built a  silly thing to fix it. Everytime I went in to help 
   - Create a new text file to take session notes according to a template, date it, save it in a specifie date format
   - Rearrange windows 
 
-This ritual of keystrokes and clicks seemed like it was begging for automation so I went ahead and automated it using a windows batch file.
+This ritual of keystrokes and clicks just to get setup seemed like it was begging for automation so I went ahead and automated it using a windows batch file.
 
 I discovered that once you get the hang of the eccentricities of batch files that you can do some pretty neat things.
 
