@@ -1,5 +1,5 @@
 @echo off
-:: HERE WE SET THE DATE VARIABLES based on the global %date% result
+::SET THE DATE VARIABLES BASED ON %date% RESULT
 ::----------------------------------------------------------------
 set "day=%date:~-7,2%"
 set "year=%date:~-4%"
