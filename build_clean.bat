@@ -61,7 +61,7 @@ ECHO. >> %day%_%monthname%_%year%.txt
 ::END LOOP DATA
 SET /a START=%START%+1 
 GOTO loop
-
+:stop
 START chrome.exe https://www.appointment-plus.com/login.php
 START chrome.exe http://www.gmail.com
 "C:\Program Files\Notepad++\notepad++" C:\Users\Vic\Desktop\STUDY_HUT\Notes.txt %filename%
