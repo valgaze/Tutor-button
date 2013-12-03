@@ -36,7 +36,7 @@ set "filename=%day%_%monthname%_%year%.txt"
 
 To-dos
 ----
-*Deal with months properly (ex month_num=1 corresponds to January)
+~~*Deal with months properly (ex month_num=1 corresponds to January)~~
 
 *Calculate the number of students for the session to be the loop count
 
