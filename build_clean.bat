@@ -3,8 +3,19 @@
 ::----------------------------------------------------------------
 set "day=%date:~-7,2%"
 set "year=%date:~-4%"
-set "monthnum=%date:~-10,2%"
-set "monthname=November"
+set "month_num=%date:~-10,2%"
+if %month_num%==01 set monthname=January
+if %month_num%==02 set monthname=February
+if %month_num%==03 set monthname=March
+if %month_num%==04 set monthname=April
+if %month_num%==05 set monthname=May
+if %month_num%==06 set monthname=June
+if %month_num%==07 set monthname=July
+if %month_num%==08 set monthname=August
+if %month_num%==09 set monthname=September
+if %month_num%==10 set monthname=October
+if %month_num%==11 set monthname=November
+if %month_num%==12 set monthname=December
 set "filename=%day%_%monthname%_%year%.txt"
 ::----------------------------------------------------------------
 
